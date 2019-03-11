@@ -1,0 +1,44 @@
+h4 {
+    color:red;    
+}
+.myClass{
+    border-style:dashed;
+    border-color:brown;
+}
+.borderDotted{
+    border-style:dotted;
+}
+
+.lightGreenBack{
+  background-color:lightgreen;
+}
+
+.lightBlueBack{
+    background-color: lightblue;
+}
+/* tag, id, class */
+/* Child selector */
+
+ul>li{
+    color:blue;
+    background-color:tomato;
+    border-style:dashed;
+}
+div>div{
+    color:red;
+}
+p>div{
+    color:darkblue;
+}
+/* Descendent selector */
+ul li{
+    color:green;
+}
+/* Adjacent sibling selector */
+div+p{
+    color:blue;
+}
+/* General sibling selector */
+div~p{
+    color:red;
+}

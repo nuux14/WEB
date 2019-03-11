@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Basics</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+       /* Rules: selector + declaration  */
+       /* Selector: which element to apply the CSS on
+          Declaration: a set of pairs of properties and values */
+      /* Type/Tag/Element selector */
+      p {
+          color:green;
+          background-color:lightgreen;
+      }
+    </style>
 </head>
-<body style="background-color:yellow;">
-    <h4>CSS Basics</h4>
+<body style="background-color:aliceblue;">
+    <!-- gjhj -->
+    <h4 class="myClass lightGreenBack">CSS Basics</h4>
     <p>CSS stands for Cascading Style Sheets. It's a language used 
         to control the visual appearances of web documents.
         
     </p>
     <h4>Facts about CSS</h4>
-    <ul>
+    <ul class="borderDotted lightGreenBack">
       <li>CSS is a case insensitive language</li>
       <li>CSS is composed of rules</li>
       <li>A rule is composed of a selector and its declaration </li>
@@ -35,5 +47,15 @@
         <li>External stylesheet</li>
         <li>User agent(Browser defaults) stylesheet</li>
     </ol>
+    <div>
+        Parent
+        <div>
+            Child
+            
+        </div>
+    </div>
+    <p>paragraph
+                <div>the child of a par</div>
+            </p>
 </body>
 </html>
