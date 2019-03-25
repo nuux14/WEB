@@ -1,0 +1,39 @@
+h1{
+    border-style:solid;
+    border-color:red;
+    border-width:8px;
+   margin-left:0;
+   margin-right:0;
+   padding:25px 15px 5px 0;
+   width:200px;
+   height:200px;
+   border-radius:50%;
+   /* padding-left: */
+    }
+  /* Pseudo class selectors */
+    div:hover{
+     border-top-style:solid;
+     border-top-color:olive;
+     border-top-width:4px;
+     padding-top:5px;
+     width:80px;
+     border-radius:6px;     
+
+    }
+
+    input{
+        PADDING:3PX 5PX;
+        border-radius:3px;
+        border:none;
+        border-style:solid;
+        border-width:0.04em;
+        border-color:grey;
+    }
+
+    input:focus{       
+        outline-style:outset;
+        outline-color:rgba(0,200,0,0.2);
+        outline-width:300px;
+    }
+
+   

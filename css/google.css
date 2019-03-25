@@ -1,0 +1,29 @@
+body{
+    text-align:center;
+    background-image:url('/abc.jpg');
+}
+
+input{
+    padding:8px;
+    width:50%;
+    border-radius:20px;
+}
+
+input:hover{
+    background-color:rgba(246, 245, 245, 0.575);
+}
+
+input:focus{
+    outline:none;
+}
+
+img{
+    border-radius:50%;
+    margin-top:7px;
+}
+
+span{
+    background-color:white;
+    padding:2px 6px;
+    border-radius:20px;
+}
