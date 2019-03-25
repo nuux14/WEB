@@ -1,0 +1,87 @@
+
+body{
+    margin:0;
+ 
+}
+#Header{
+    background-color:lightgrey;  
+    padding:20px;  
+    text-align:center;   
+}
+ul#menu{
+ list-style-type:none;
+ background-color:lightgreen;
+ margin:0;
+ text-align:left;
+ padding-left:10px;
+ position:sticky;
+ top:0;
+}
+
+ul#menu>li{
+    display:inline-block;
+    padding:8px;
+}
+/* Coloring: 4 ways to assign color value to an element */
+
+h1{
+    color:olivedrab;/* Color Name  */
+    background-color: rgba(0, 0, 0, 0.08);  ; /*  Color function  */
+}
+p{ /*203, 65, 156  */
+    color:#cb419c;
+    background-color:transparent;   /*    */
+}
+/* Positioning elements */
+#parent{
+    border-style:dashed;
+    height:100px; 
+    position:relative;   
+}
+#child{
+    border-style:solid;
+    border-color:blue;
+    width:40px;  
+    position:absolute;
+    bottom:0;  
+    right:0;
+}
+
+
+#switch{
+    margin-top:10px;
+    margin-left:10px;
+    width:65px;
+    height:35px;
+    background-color:lightgoldenrodyellow;
+    border:1px solid gold;
+    cursor: pointer;
+    text-align:center;
+    position:relative;
+   border-radius:10%;
+}
+
+#switch:hover{
+    background-color:rgb(250,230,250);
+}
+
+#redcircle{
+   width:18px;
+   height:18px;
+   background-color:red;  
+   position:absolute;
+   top:25%;
+   right:36%;
+   border-radius:50%;
+
+}
+
+
+
+/* span{
+    background-color:rgba(255, 217, 0, 0.555);
+    width:100px;
+    padding:20px;
+    margin:20px;
+    display:inline-block;
+} */
