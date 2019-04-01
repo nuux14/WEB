@@ -1,0 +1,18 @@
+/* 
+  pixels   px ---
+  percent  %
+           em
+           rem
+           vh
+           vw
+           mm   ---
+           cm   ---
+*/
+
+.container{
+    display:flex;
+}
+
+.cards{
+    width:33.33%;
+}
